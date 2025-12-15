@@ -4,7 +4,8 @@
 
 ## Description
 
-(An in-depth paragraph or two about your project. Explain the problem it solves, its main features, and why a user should care.)
+this is a js documentation that explains examples of JS 
+It helps you solve js problems and easily understaand JS
 
 ## Installation
 
