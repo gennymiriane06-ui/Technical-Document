@@ -11,12 +11,12 @@ It helps you solve js problems and easily understaand JS
 
 ## Installation
 
-.githut
-workflows
-linters.yml
-README.md
-index.html
-style.css
+- .githut
+- workflows
+- linters.yml
+- README.md
+- index.html
+- style.css
 
 ## Author
 
