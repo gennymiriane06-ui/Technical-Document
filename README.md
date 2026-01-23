@@ -2,7 +2,7 @@
 
 (A simple overview/tagline of the project and its purpose.)
 
-![TECH-DOCUMENTAION Form Screenshot](assets/techdoc.png)
+![TECH-DOCUMENTAION Form Screenshot](assets/image/techdoc.png)
 
 ## Description
 
@@ -17,3 +17,7 @@ linters.yml
 README.md
 index.html
 style.css
+
+## Author
+
+Mbopda Genny Miriane
