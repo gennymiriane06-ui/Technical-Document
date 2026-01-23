@@ -2,6 +2,8 @@
 
 (A simple overview/tagline of the project and its purpose.)
 
+![TECH-DOCUMENTAION Form Screenshot](assets/techdoc.png)
+
 ## Description
 
 this is a js documentation that explains examples of JS 
