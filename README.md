@@ -2,7 +2,7 @@
 
 (A simple overview/tagline of the project and its purpose.)
 
-![TECH-DOCUMENTAION Form Screenshot](assets/image/techdoc.png)
+![TECH-DOCUMENTAION Form Screenshot](assets/image/tech.png)
 
 ## Description
 
