@@ -11,24 +11,24 @@
 <body>
     <nav>
         <h1>Js Documentation</h1>
-        <div><a href="#introduction"> Introduction</a><br></div>
-        <div><a href="#what-you-should-already-know">What you should already know</a><br></div>
-        <div><a href="#javascript-and-java">Javascript and java</a><br></div>
-        <div><a href="#hello-world">world </a><br></div>
-        <div><a href="#variables">Variables</a><br></div>
-        <div><a href="#declaring-variables">Declaring variables</a><br></div>
-        <div><a href="#variable-scope">Variable scope</a><br></div>
-        <div><a href="#global-variables">Global variables</a><br></div>
+        <div><a href="#introduction"> Introduction</a></div>
+        <div><a href="#what-you-should-already-know">What you should already know</a></div>
+        <div><a href="#javascript-and-java">Javascript and java</a></div>
+        <div><a href="#hello-world">world </a></div>
+        <div><a href="#variables">Variables</a></div>
+        <div><a href="#declaring-variables">Declaring variables</a></div>
+        <div><a href="#variable-scope">Variable scope</a></div>
+        <div><a href="#global-variables">Global variables</a></div>
         <div><a href="#constants">Constants</a><br></div>
-        <div><a href="#data-types">Data types</a><br></div>
-        <div><a href="#if-else-statement">if...else statement</a><br></div>
-        <div><a href="#while statement">While statement</a><br></div>
-        <div><a href="#function-declarations">Function declaration</a><br></div>
-        <div><a href="#reference">Reference</a><br></div>
+        <div><a href="#data-types">Data types</a></div>
+        <div><a href="#if-else-statement">if...else statement</a></div>
+        <div><a href="#while-statement">While statement</a></div>
+        <div><a href="#function-declarations">Function declaration</a></div>
+        <div><a href="#reference">Reference</a></div>
 
     </nav>
     <p class ="text-p"> </p>
-    <main class="text-area">
+    <main class="main-doc">
         <section id="introduction">
             <h1>Introduction</h1>
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
@@ -97,10 +97,10 @@
                 code:
             </p>
             <pre>
- function greetMe(yourName) {
-  alert("Hello " + yourName); 
- } 
- greetMe("World");
+               function greetMe(yourName) {
+                alert("Hello " + yourName); 
+               } 
+               greetMe("World");
             </pre>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
         </section>
@@ -179,17 +179,17 @@
                 example:
             </p>
             <pre>
-  // THIS WILL CAUSE AN ERROR 
-  function f() {}; const f= 5; 
-  // THIS WILL CAUSE AN ERROR ALSO 
-  function f() { const g = 5; var g;
-  //statements }
+                // THIS WILL CAUSE AN ERROR 
+                function f() {}; const f= 5; 
+                // THIS WILL CAUSE AN ERROR ALSO 
+                function f() { const g = 5; var g;
+                //statements }
             </pre>
             <p>However, object attributes are not protected, so the following statement is executed without problems.
             </p>
             <pre>
-const MY_OBJECT = {"key": "value"}; 
-MY_OBJECT.key = "otherValue"; </pre>
+              const MY_OBJECT = {"key": "value"}; 
+              MY_OBJECT.key = "otherValue"; </pre>
         </section>
         <section id="data-types">
             <h2>Data types</h2>
@@ -212,6 +212,7 @@ MY_OBJECT.key = "otherValue"; </pre>
                 as named containers for values, and functions as procedures that your application can perform.</p>
         </section>
         <section id="if-else-statement">
+            <h2>if.. else statement</h2>
             <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause
                 to execute a statement if the condition is false. An if statement looks as follows:</p>
             <pre>if (condition) { statement_1; } else { statement_2; }</pre>
@@ -254,7 +255,8 @@ MY_OBJECT.key = "otherValue"; </pre>
             <p>To execute multiple statements, use a block statement ({ ... }) to group those statements.</p>
             <p>Examples</p>
             <p>The following while loop iterates as long as n is less than three:</p>
-            <pre>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</pre>
+            <pre>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }
+            </pre>
             <p>With each iteration, the loop increments n and adds that value to x.Therefore, x and n take on the
                 following
                 values:</p>
